@@ -1,0 +1,35 @@
+.edit-post-modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 450px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.post-modal-header {
+  display: flex;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+h4.popup-title {
+  flex: 1;
+}
+.modal-body form textarea {
+  width: 100%;
+  border: none;
+}
+span.popup-close-icon {
+  cursor: pointer;
+}
+.modal-body form textarea:focus-visible {
+  outline: none;
+}
+div#link-box span {
+  color: blue;
+  cursor: pointer;
+}
